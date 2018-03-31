@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: b3f61ca6853032c47951067b43c49af1
+timeCreated: 1484076508
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: FrontLowPolyTireLeft
+    100002: FrontLowPolyTireRight
+    100004: //RootNode
+    100006: MidLowPolyTireLeft
+    100008: MidLowPolyTireRight
+    100010: Optimized_MainTankBody
+    100012: RearLowPolyTireLeft
+    100014: RearLowPolyTireRight
+    100016: testGun1
+    100018: testGun2
+    100020: Turret
+    100022: Turret_Protector
+    100024: TurretBarrel
+    400000: FrontLowPolyTireLeft
+    400002: FrontLowPolyTireRight
+    400004: //RootNode
+    400006: MidLowPolyTireLeft
+    400008: MidLowPolyTireRight
+    400010: Optimized_MainTankBody
+    400012: RearLowPolyTireLeft
+    400014: RearLowPolyTireRight
+    400016: testGun1
+    400018: testGun2
+    400020: Turret
+    400022: Turret_Protector
+    400024: TurretBarrel
+    2300000: FrontLowPolyTireLeft
+    2300002: FrontLowPolyTireRight
+    2300004: MidLowPolyTireLeft
+    2300006: MidLowPolyTireRight
+    2300008: Optimized_MainTankBody
+    2300010: RearLowPolyTireLeft
+    2300012: RearLowPolyTireRight
+    2300014: testGun1
+    2300016: testGun2
+    2300018: Turret
+    2300020: Turret_Protector
+    2300022: TurretBarrel
+    3300000: FrontLowPolyTireLeft
+    3300002: FrontLowPolyTireRight
+    3300004: MidLowPolyTireLeft
+    3300006: MidLowPolyTireRight
+    3300008: Optimized_MainTankBody
+    3300010: RearLowPolyTireLeft
+    3300012: RearLowPolyTireRight
+    3300014: testGun1
+    3300016: testGun2
+    3300018: Turret
+    3300020: Turret_Protector
+    3300022: TurretBarrel
+    4300000: Turret_Protector
+    4300002: Turret
+    4300004: TurretBarrel
+    4300006: testGun1
+    4300008: Optimized_MainTankBody
+    4300010: testGun2
+    4300012: MidLowPolyTireRight
+    4300014: FrontLowPolyTireRight
+    4300016: RearLowPolyTireRight
+    4300018: RearLowPolyTireLeft
+    4300020: FrontLowPolyTireLeft
+    4300022: MidLowPolyTireLeft
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

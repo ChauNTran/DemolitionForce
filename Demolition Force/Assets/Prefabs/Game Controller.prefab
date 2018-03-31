@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1061279892962348}
+  m_IsPrefabParent: 1
+--- !u!1 &1061279892962348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4898915732006706}
+  - component: {fileID: 114729554559839528}
+  - component: {fileID: 114024490435904798}
+  - component: {fileID: 114981364955740476}
+  - component: {fileID: 114515045434409856}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4898915732006706
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061279892962348}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1511.0743, y: 32.807938, z: 1617.8959}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114024490435904798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061279892962348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91e2f473b26fe6f4a96e1b35219ee9b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SunTrans: {fileID: 0}
+  MoonTrans: {fileID: 0}
+  Sun: {fileID: 0}
+  Moon: {fileID: 0}
+--- !u!114 &114515045434409856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061279892962348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6e8f69375dcd6429c420c914fccbf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretPosition: {fileID: 0}
+  tankBody: {fileID: 0}
+  turretSets:
+  - name: Default
+    turretObject: {fileID: 1608664470661242, guid: 698f2dc8f4146f940aa2f3f93a186716,
+      type: 2}
+    fireRate_main: 0.7
+    fireRate_secondary: 0.14
+  - name: Turret Level 1
+    turretObject: {fileID: 1472095105643570, guid: 912313e3c28130b49b968cd0428f04a1,
+      type: 2}
+    fireRate_main: 0.4
+    fireRate_secondary: 0.1
+  - name: Turret Level 2
+    turretObject: {fileID: 1438655269258968, guid: 1226d2fde0f3cfa4b85e4db31d7e50de,
+      type: 2}
+    fireRate_main: 0.3
+    fireRate_secondary: 0.08
+  - name: Turret Level 3
+    turretObject: {fileID: 1444100415475212, guid: 9c5cda607239d69498bd926f9608bb38,
+      type: 2}
+    fireRate_main: 0.2
+    fireRate_secondary: 0.06
+  armorSets:
+  - name: Default
+    armorObject: {fileID: 0}
+    HealthCapacity: 100
+  - name: Armor Level 1
+    armorObject: {fileID: 0}
+    HealthCapacity: 130
+  - name: Armor Level 2
+    armorObject: {fileID: 0}
+    HealthCapacity: 170
+  - name: Armor Level 3
+    armorObject: {fileID: 0}
+    HealthCapacity: 200
+  damageSets:
+  - name: Default
+    shellObject: {fileID: 1000010027607658, guid: 084c6f33a7a0dfd4994221e02e77f394,
+      type: 2}
+    damageRate_main: 10
+    damageRate_secondary: 1
+  - name: Damage Level 1
+    shellObject: {fileID: 1012045333940100, guid: 86e91c517cd88cd4ea6438bb89c0ba97,
+      type: 2}
+    damageRate_main: 15
+    damageRate_secondary: 2
+  - name: Damage Level 2
+    shellObject: {fileID: 1955640787269522, guid: 52f6f9e9221801747ae762d800ca36da,
+      type: 2}
+    damageRate_main: 20
+    damageRate_secondary: 3
+  - name: Damage Level 3
+    shellObject: {fileID: 1317969381304914, guid: fdc3a1a928cdfae468521845fc0ca06f,
+      type: 2}
+    damageRate_main: 25
+    damageRate_secondary: 4
+--- !u!114 &114729554559839528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061279892962348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a3097905be7abe499c6a292e187b6fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114981364955740476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061279892962348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5266b30d98f06fe42b1acf13e19b4c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

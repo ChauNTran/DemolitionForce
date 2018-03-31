@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: 069be473ce3d2d14fa32496f3159d407
+timeCreated: 1479416810
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BoatTankBarrelLeft
+    100004: BoatTankBarrelRight
+    100006: BoatTankBody
+    100008: BoatTurret
+    100010: BoatTurret_Protector
+    100012: FrontBoatTireLeft
+    100014: FrontBoatTireRight
+    100016: FrontCannonHingeLeft
+    100018: FrontCannonHingeRight
+    100020: FrontCannonLeft
+    100022: FrontCannonPanelLeft
+    100024: FrontCannonPanelRight
+    100026: FrontCannonRight
+    100028: Life_Preserver1
+    100030: Life_Preserver2
+    100032: Life_Preserver3
+    100034: Life_Preserver4
+    100036: Life_Preservers
+    100038: Particle View 001
+    100040: RearBoatTireLeft
+    100042: RearBoatTireRight
+    100044: RearCannonHingeLeft
+    100046: RearCannonHingeRight
+    100048: RearCannonLeft
+    100050: RearCannonPanelLeft
+    100052: RearCannonPanelRight
+    100054: RearCannonRight
+    100056: Sheetmetalsiding
+    400000: //RootNode
+    400002: BoatTankBarrelLeft
+    400004: BoatTankBarrelRight
+    400006: BoatTankBody
+    400008: BoatTurret
+    400010: BoatTurret_Protector
+    400012: FrontBoatTireLeft
+    400014: FrontBoatTireRight
+    400016: FrontCannonHingeLeft
+    400018: FrontCannonHingeRight
+    400020: FrontCannonLeft
+    400022: FrontCannonPanelLeft
+    400024: FrontCannonPanelRight
+    400026: FrontCannonRight
+    400028: Life_Preserver1
+    400030: Life_Preserver2
+    400032: Life_Preserver3
+    400034: Life_Preserver4
+    400036: Life_Preservers
+    400038: Particle View 001
+    400040: RearBoatTireLeft
+    400042: RearBoatTireRight
+    400044: RearCannonHingeLeft
+    400046: RearCannonHingeRight
+    400048: RearCannonLeft
+    400050: RearCannonPanelLeft
+    400052: RearCannonPanelRight
+    400054: RearCannonRight
+    400056: Sheetmetalsiding
+    2300000: BoatTankBarrelLeft
+    2300002: BoatTankBarrelRight
+    2300004: BoatTankBody
+    2300006: BoatTurret
+    2300008: BoatTurret_Protector
+    2300010: FrontBoatTireLeft
+    2300012: FrontBoatTireRight
+    2300014: FrontCannonHingeLeft
+    2300016: FrontCannonHingeRight
+    2300018: FrontCannonLeft
+    2300020: FrontCannonPanelLeft
+    2300022: FrontCannonPanelRight
+    2300024: FrontCannonRight
+    2300026: Life_Preserver1
+    2300028: Life_Preserver2
+    2300030: Life_Preserver3
+    2300032: Life_Preserver4
+    2300034: RearBoatTireLeft
+    2300036: RearBoatTireRight
+    2300038: RearCannonHingeLeft
+    2300040: RearCannonHingeRight
+    2300042: RearCannonLeft
+    2300044: RearCannonPanelLeft
+    2300046: RearCannonPanelRight
+    2300048: RearCannonRight
+    2300050: Sheetmetalsiding
+    3300000: BoatTankBarrelLeft
+    3300002: BoatTankBarrelRight
+    3300004: BoatTankBody
+    3300006: BoatTurret
+    3300008: BoatTurret_Protector
+    3300010: FrontBoatTireLeft
+    3300012: FrontBoatTireRight
+    3300014: FrontCannonHingeLeft
+    3300016: FrontCannonHingeRight
+    3300018: FrontCannonLeft
+    3300020: FrontCannonPanelLeft
+    3300022: FrontCannonPanelRight
+    3300024: FrontCannonRight
+    3300026: Life_Preserver1
+    3300028: Life_Preserver2
+    3300030: Life_Preserver3
+    3300032: Life_Preserver4
+    3300034: RearBoatTireLeft
+    3300036: RearBoatTireRight
+    3300038: RearCannonHingeLeft
+    3300040: RearCannonHingeRight
+    3300042: RearCannonLeft
+    3300044: RearCannonPanelLeft
+    3300046: RearCannonPanelRight
+    3300048: RearCannonRight
+    3300050: Sheetmetalsiding
+    4300000: BoatTankBody
+    4300002: BoatTurret_Protector
+    4300004: BoatTurret
+    4300006: BoatTankBarrelLeft
+    4300008: BoatTankBarrelRight
+    4300010: Life_Preserver1
+    4300012: Life_Preserver2
+    4300014: Life_Preserver3
+    4300016: Life_Preserver4
+    4300018: FrontBoatTireLeft
+    4300020: RearCannonRight
+    4300022: RearCannonLeft
+    4300024: FrontCannonLeft
+    4300026: FrontCannonRight
+    4300028: RearCannonHingeLeft
+    4300030: RearCannonPanelLeft
+    4300032: FrontCannonHingeLeft
+    4300034: FrontCannonPanelLeft
+    4300036: RearCannonHingeRight
+    4300038: RearCannonPanelRight
+    4300040: FrontCannonHingeRight
+    4300042: FrontCannonPanelRight
+    4300044: Sheetmetalsiding
+    4300046: RearBoatTireRight
+    4300048: FrontBoatTireRight
+    4300050: RearBoatTireLeft
+    7400000: side_out
+    7400002: side_shoot
+    7400004: Side_In
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: side_out
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoatTankBody
+        weight: 1
+      - path: BoatTurret_Protector
+        weight: 1
+      - path: BoatTurret_Protector/BoatTurret
+        weight: 1
+      - path: BoatTurret_Protector/BoatTurret/BoatTankBarrelLeft
+        weight: 1
+      - path: BoatTurret_Protector/BoatTurret/BoatTankBarrelRight
+        weight: 1
+      - path: FrontBoatTireLeft
+        weight: 1
+      - path: FrontBoatTireRight
+        weight: 1
+      - path: FrontCannonHingeLeft
+        weight: 1
+      - path: FrontCannonHingeLeft/FrontCannonPanelLeft
+        weight: 1
+      - path: FrontCannonHingeRight
+        weight: 1
+      - path: FrontCannonHingeRight/FrontCannonPanelRight
+        weight: 1
+      - path: FrontCannonLeft
+        weight: 1
+      - path: FrontCannonRight
+        weight: 1
+      - path: Life_Preservers
+        weight: 1
+      - path: Life_Preservers/Life_Preserver1
+        weight: 1
+      - path: Life_Preservers/Life_Preserver2
+        weight: 1
+      - path: Life_Preservers/Life_Preserver3
+        weight: 1
+      - path: Life_Preservers/Life_Preserver4
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: RearBoatTireLeft
+        weight: 1
+      - path: RearBoatTireRight
+        weight: 1
+      - path: RearCannonHingeLeft
+        weight: 1
+      - path: RearCannonHingeLeft/RearCannonPanelLeft
+        weight: 1
+      - path: RearCannonHingeRight
+        weight: 1
+      - path: RearCannonHingeRight/RearCannonPanelRight
+        weight: 1
+      - path: RearCannonLeft
+        weight: 1
+      - path: RearCannonRight
+        weight: 1
+      - path: Sheetmetalsiding
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: side_shoot
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoatTankBody
+        weight: 1
+      - path: BoatTurret_Protector
+        weight: 1
+      - path: BoatTurret_Protector/BoatTurret
+        weight: 1
+      - path: BoatTurret_Protector/BoatTurret/BoatTankBarrelLeft
+        weight: 1
+      - path: BoatTurret_Protector/BoatTurret/BoatTankBarrelRight
+        weight: 1
+      - path: FrontBoatTireLeft
+        weight: 1
+      - path: FrontBoatTireRight
+        weight: 1
+      - path: FrontCannonHingeLeft
+        weight: 1
+      - path: FrontCannonHingeLeft/FrontCannonPanelLeft
+        weight: 1
+      - path: FrontCannonHingeRight
+        weight: 1
+      - path: FrontCannonHingeRight/FrontCannonPanelRight
+        weight: 1
+      - path: FrontCannonLeft
+        weight: 1
+      - path: FrontCannonRight
+        weight: 1
+      - path: Life_Preservers
+        weight: 1
+      - path: Life_Preservers/Life_Preserver1
+        weight: 1
+      - path: Life_Preservers/Life_Preserver2
+        weight: 1
+      - path: Life_Preservers/Life_Preserver3
+        weight: 1
+      - path: Life_Preservers/Life_Preserver4
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: RearBoatTireLeft
+        weight: 1
+      - path: RearBoatTireRight
+        weight: 1
+      - path: RearCannonHingeLeft
+        weight: 1
+      - path: RearCannonHingeLeft/RearCannonPanelLeft
+        weight: 1
+      - path: RearCannonHingeRight
+        weight: 1
+      - path: RearCannonHingeRight/RearCannonPanelRight
+        weight: 1
+      - path: RearCannonLeft
+        weight: 1
+      - path: RearCannonRight
+        weight: 1
+      - path: Sheetmetalsiding
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Side_In
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoatTankBody
+        weight: 1
+      - path: BoatTurret_Protector
+        weight: 1
+      - path: BoatTurret_Protector/BoatTurret
+        weight: 1
+      - path: BoatTurret_Protector/BoatTurret/BoatTankBarrelLeft
+        weight: 1
+      - path: BoatTurret_Protector/BoatTurret/BoatTankBarrelRight
+        weight: 1
+      - path: FrontBoatTireLeft
+        weight: 1
+      - path: FrontBoatTireRight
+        weight: 1
+      - path: FrontCannonHingeLeft
+        weight: 1
+      - path: FrontCannonHingeLeft/FrontCannonPanelLeft
+        weight: 1
+      - path: FrontCannonHingeRight
+        weight: 1
+      - path: FrontCannonHingeRight/FrontCannonPanelRight
+        weight: 1
+      - path: FrontCannonLeft
+        weight: 1
+      - path: FrontCannonRight
+        weight: 1
+      - path: Life_Preservers
+        weight: 1
+      - path: Life_Preservers/Life_Preserver1
+        weight: 1
+      - path: Life_Preservers/Life_Preserver2
+        weight: 1
+      - path: Life_Preservers/Life_Preserver3
+        weight: 1
+      - path: Life_Preservers/Life_Preserver4
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: RearBoatTireLeft
+        weight: 1
+      - path: RearBoatTireRight
+        weight: 1
+      - path: RearCannonHingeLeft
+        weight: 1
+      - path: RearCannonHingeLeft/RearCannonPanelLeft
+        weight: 1
+      - path: RearCannonHingeRight
+        weight: 1
+      - path: RearCannonHingeRight/RearCannonPanelRight
+        weight: 1
+      - path: RearCannonLeft
+        weight: 1
+      - path: RearCannonRight
+        weight: 1
+      - path: Sheetmetalsiding
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.7
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: BoatTankBody
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

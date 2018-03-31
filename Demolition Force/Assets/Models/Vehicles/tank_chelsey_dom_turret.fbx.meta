@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 8090e568cc6064385aafec6c9d61f028
+timeCreated: 1474914826
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: tank_body
+    100002: //RootNode
+    100004: tank_turret_base
+    100006: tank_turret_main
+    100008: tank_turret_protector
+    100010: tank_wheel_f_l
+    100012: tank_wheel_f_r
+    100014: tank_wheel_r_l
+    100016: tank_wheel_r_r
+    400000: tank_body
+    400002: //RootNode
+    400004: tank_turret_base
+    400006: tank_turret_main
+    400008: tank_turret_protector
+    400010: tank_wheel_f_l
+    400012: tank_wheel_f_r
+    400014: tank_wheel_r_l
+    400016: tank_wheel_r_r
+    2300000: tank_body
+    2300002: tank_turret_base
+    2300004: tank_turret_main
+    2300006: tank_turret_protector
+    2300008: tank_wheel_f_l
+    2300010: tank_wheel_f_r
+    2300012: tank_wheel_r_l
+    2300014: tank_wheel_r_r
+    3300000: tank_body
+    3300002: tank_turret_base
+    3300004: tank_turret_main
+    3300006: tank_turret_protector
+    3300008: tank_wheel_f_l
+    3300010: tank_wheel_f_r
+    3300012: tank_wheel_r_l
+    3300014: tank_wheel_r_r
+    4300000: tank_body
+    4300002: tank_wheel_f_l
+    4300004: tank_wheel_r_l
+    4300006: tank_wheel_f_r
+    4300008: tank_wheel_r_r
+    4300010: tank_turret_base
+    4300012: tank_turret_protector
+    4300014: tank_turret_main
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

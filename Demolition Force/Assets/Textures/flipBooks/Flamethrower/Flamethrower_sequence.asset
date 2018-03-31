@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: Flamethrower_sequence
+  m_EditorClassIdentifier: 
+  inputFrameGUIDs:
+  - b0f5b754a29b74940a8de67a0e287faf
+  - 154fe45894d54c843906bd9ef65281a9
+  - 6f4b37179ca73d843924581c75882d91
+  - 8f52af16818ff4344acaf66441ded9ae
+  - 76620dcec59f9ec44977370746d11730
+  - e690d7fc15419d041bf00e7deb7127d9
+  - 496bdefde8626bb40a1b0f8095bbcc45
+  - b297d7850d3809345b6c246035ad4039
+  - f0bda1bee9a5605499a4c3e48978aef2
+  - 81a3a37663dab0246a1a13fedba2fd58
+  - d72ba85966385694c962e297d54c7eb9
+  - 53a57f14e0e5b424ea9a88dc066aaf65
+  - 5d85c9788e036b644a0fcb96b2d8a2a7
+  - 998f6506d035d764b9253fb0b269aaf2
+  - 7057ff375dbc9974e931d53e3df24a0e
+  - 23da267675eb4da40a67074c4803ba1f
+  - cec7e6e1489135d45b8ed80040d4b82b
+  - ac1e4184d55a9794da31dcc35e71dd8b
+  - 5dcc8ddd238e67d41a4d6bacd62349fc
+  - 4bae993b9578d364a8bee459c66456ab
+  - 9ff84ead7022e504bb6cf62cac7ade2c
+  - e29f53c61b453b544949c203c9bea7c4
+  - a098574bcfac6b2468c44d6d9fc2faad
+  - fe96c9da9d34e964994019a976631fe9
+  - e57c1a3c142c4ef468a85eeebc3cd759
+  - 3bd0d2de76a38fb4f8f474c109452553
+  - 3dc87a0a32c2d4d4785543a4e10e050b
+  - d330a8728566a8847a57dcb0e3afdb3f
+  - dfbcf4e32b09a134e835338f84d8e94d
+  - 2ea5d4b12ba9b724ea00866bf19ec8c3
+  - 022a1ae07b4bb15448f561cdb50c8493
+  - ddd40909ba222c8479ffcc65653458e3
+  - fe69bd1373f565a4a8ba9a60f7a09c11
+  - d9476a29560a0b443971e387f17d6ce4
+  - 35efe595372ae294d97ef1736ee03b9d
+  - d7d25f4fc356cc74896a25afe95dec86
+  - 67b0711aa18df4e4c863a5e94f8d2932
+  - e168288c597d99c44b8a7218ede69641
+  - f65540350904ff34e848159f4be1d84a
+  - 5f0666b722d22aa45a7d6d0aa33e5b2e
+  - 86a50611225a01146a190e925701076b
+  - 4f271980129785c4b8394cfe01a6d5cf
+  - b232808a04a20a04781535d9aa41f214
+  - 1169997c4ae496e4581599630f366742
+  - 06b0ad3eeb7f35545962ff9a4a7b10f7
+  - dda6e12cc06263f47815434559d238c7
+  - dd9e82a39d8eeee4cb484f75e54ce765
+  - a6f6af2f89bc08c49a4955dd8dd80d2b
+  - a6be2df2fec61cd4fa907c8b79ea07ff
+  - 0b1bdbd8fd58b8d418c7a8e3a0dcb873
+  - 74a22fae29140644b9bd596ee56e888e
+  - 58ed1ca0f265242439dcc277381016b0
+  - 9378202cd51e1484e87855a4f1598a0e
+  - 171a297c2bb132044b02098a7f1a214d
+  - 88e8278b5f035fb4cb0670c57a6eea37
+  - 3519866a632de4a43ba8e9e641ad445e
+  - ce3f8f84b7c574b41bc24e98e8888a4e
+  - f7af9fdeb3ce0c747afe5c4736abcbf0
+  - 646b3045776eae549ad5e73d9f9523d3
+  - c108021794a5aea42b532a4854895738
+  processorInfos:
+  - {fileID: 114552463026957316}
+  exportSettings:
+    fileName: Assets/Textures/flipBooks/Flamethrower/fb_flamethrower.png
+    frameCount: 1
+    exportMode: 2
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &114481128369345038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 10
+  FlipbookNumV: 6
+  Mode: 0
+--- !u!114 &114552463026957316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Assemble Flipbook
+  Enabled: 1
+  Settings: {fileID: 114481128369345038}

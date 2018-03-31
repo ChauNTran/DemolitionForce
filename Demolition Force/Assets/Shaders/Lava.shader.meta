@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 96eb26cf52625324ba25f6101547d61e
+timeCreated: 1493776746
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _Fiery1: {fileID: 2800000, guid: 14d2c9461b7d5af44bdd51e2f990d0fd, type: 3}
+  - _Fiery2: {fileID: 2800000, guid: bad6ffd32567e9b41aa10429a0822951, type: 3}
+  - _BurntLava1: {fileID: 2800000, guid: a2bdcbdad6cfed54b9568bdfc41a89f0, type: 3}
+  - _Cloud: {fileID: 2800000, guid: 850a21ffb5f8fd94b8756cd36d69feb5, type: 3}
+  - _BurntLava2: {fileID: 2800000, guid: f0f932c5b13ffc24796633c438968c48, type: 3}
+  - _FlashAlpha1: {fileID: 2800000, guid: 0d9fe98f1b4167141a9ff4f386b168d3, type: 3}
+  - _FlashAlpha2: {fileID: 2800000, guid: 0d9fe98f1b4167141a9ff4f386b168d3, type: 3}
+  - _AlphaLerp: {fileID: 2800000, guid: 6f1c775fb925b204f9c12c8ec59ebed1, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: fdcb4fff71e11f6458215afca93f3578
+timeCreated: 1491641031
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Fast Tank Gun Left
+    100002: Fast Tank Gun Right
+    100004: //RootNode
+    100006: Fast_tank_body
+    100008: FrontFastTankTireLeft
+    100010: FrontFastTankTireRight
+    100012: MIddle Part
+    100014: Missile Launcher Left
+    100016: Missile Launcher Right
+    100018: missile_tip1
+    100020: missile_tip2
+    100022: missile_tip3
+    100024: missile_tip4
+    100026: missile_tip5
+    100028: missile_tip6
+    100030: missile_tip7
+    100032: missile_tip8
+    100034: ML_Horizontal Rotation
+    100036: ML_Vertical Rotation
+    100038: Particle View 001
+    100040: RearFastTankTireLeft
+    100042: RearFastTankTireRight
+    100044: TurretWall1
+    100046: TurretWall2
+    400000: Fast Tank Gun Left
+    400002: Fast Tank Gun Right
+    400004: //RootNode
+    400006: Fast_tank_body
+    400008: FrontFastTankTireLeft
+    400010: FrontFastTankTireRight
+    400012: MIddle Part
+    400014: Missile Launcher Left
+    400016: Missile Launcher Right
+    400018: missile_tip1
+    400020: missile_tip2
+    400022: missile_tip3
+    400024: missile_tip4
+    400026: missile_tip5
+    400028: missile_tip6
+    400030: missile_tip7
+    400032: missile_tip8
+    400034: ML_Horizontal Rotation
+    400036: ML_Vertical Rotation
+    400038: Particle View 001
+    400040: RearFastTankTireLeft
+    400042: RearFastTankTireRight
+    400044: TurretWall1
+    400046: TurretWall2
+    2300000: Fast Tank Gun Left
+    2300002: Fast Tank Gun Right
+    2300004: Fast_tank_body
+    2300006: FrontFastTankTireLeft
+    2300008: FrontFastTankTireRight
+    2300010: MIddle Part
+    2300012: Missile Launcher Left
+    2300014: Missile Launcher Right
+    2300016: missile_tip1
+    2300018: missile_tip2
+    2300020: missile_tip3
+    2300022: missile_tip4
+    2300024: missile_tip5
+    2300026: missile_tip6
+    2300028: missile_tip7
+    2300030: missile_tip8
+    2300032: ML_Horizontal Rotation
+    2300034: ML_Vertical Rotation
+    2300036: RearFastTankTireLeft
+    2300038: RearFastTankTireRight
+    2300040: TurretWall1
+    2300042: TurretWall2
+    3300000: Fast Tank Gun Left
+    3300002: Fast Tank Gun Right
+    3300004: Fast_tank_body
+    3300006: FrontFastTankTireLeft
+    3300008: FrontFastTankTireRight
+    3300010: MIddle Part
+    3300012: Missile Launcher Left
+    3300014: Missile Launcher Right
+    3300016: missile_tip1
+    3300018: missile_tip2
+    3300020: missile_tip3
+    3300022: missile_tip4
+    3300024: missile_tip5
+    3300026: missile_tip6
+    3300028: missile_tip7
+    3300030: missile_tip8
+    3300032: ML_Horizontal Rotation
+    3300034: ML_Vertical Rotation
+    3300036: RearFastTankTireLeft
+    3300038: RearFastTankTireRight
+    3300040: TurretWall1
+    3300042: TurretWall2
+    4300000: RearFastTankTireRight
+    4300002: FrontFastTankTireLeft
+    4300004: FrontFastTankTireRight
+    4300006: RearFastTankTireLeft
+    4300008: Fast Tank Gun Right
+    4300010: Fast_tank_body
+    4300012: ML_Horizontal Rotation
+    4300014: ML_Vertical Rotation
+    4300016: missile_tip1
+    4300018: missile_tip3
+    4300020: missile_tip4
+    4300022: missile_tip2
+    4300024: missile_tip5
+    4300026: missile_tip7
+    4300028: missile_tip8
+    4300030: missile_tip6
+    4300032: Missile Launcher Left
+    4300034: Missile Launcher Right
+    4300036: MIddle Part
+    4300038: TurretWall2
+    4300040: TurretWall1
+    4300042: Fast Tank Gun Left
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

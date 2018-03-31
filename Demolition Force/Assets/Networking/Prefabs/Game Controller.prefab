@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1541445888034858}
+  m_IsPrefabParent: 1
+--- !u!1 &1541445888034858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4944480769851646}
+  - component: {fileID: 114551785157317972}
+  - component: {fileID: 114420208806418928}
+  - component: {fileID: 114182000625419968}
+  - component: {fileID: 114351060205079724}
+  - component: {fileID: 114712932337694928}
+  - component: {fileID: 114857460200298240}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4944480769851646
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541445888034858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114182000625419968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541445888034858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a3097905be7abe499c6a292e187b6fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114351060205079724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541445888034858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96489012b692afc48b68a717e690455e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  masterTimer: 1
+  startGameTime: 0
+  timesUp: 0
+  timerUI: {fileID: 0}
+--- !u!114 &114420208806418928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541445888034858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3952159de1b753428316a44eff1a4af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countDownTime: 5
+  countDownSfx: {fileID: 8300000, guid: 9fb9627c7df9cfb4288b15d9779b91c4, type: 3}
+  goSfx: {fileID: 8300000, guid: 7e882ce297947ed49a2c9e60bc21da57, type: 3}
+  messageText: {fileID: 0}
+  subMessageText: {fileID: 0}
+  countDownText: {fileID: 0}
+  vehicleUI: {fileID: 0}
+  gameUI: {fileID: 0}
+  timerUI: {fileID: 0}
+  killPanelUI: {fileID: 0}
+  killTexts: []
+  gameType: 1
+  timePlayLimit: 4
+  killCountsToWin: 4
+  playerNameTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playerKillScoreTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  isGameOver: 0
+  team1Timer: 0
+  team2Timer: 0
+--- !u!114 &114551785157317972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541445888034858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 205
+    i1: 41
+    i2: 206
+    i3: 17
+    i4: 1
+    i5: 174
+    i6: 158
+    i7: 36
+    i8: 232
+    i9: 94
+    i10: 56
+    i11: 84
+    i12: 144
+    i13: 45
+    i14: 161
+    i15: 52
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114712932337694928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541445888034858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6188713f58e59464db15e385ed655af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreBoard: {fileID: 0}
+--- !u!114 &114857460200298240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541445888034858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602c4f1e521c71c44a3c92ef5e23e96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

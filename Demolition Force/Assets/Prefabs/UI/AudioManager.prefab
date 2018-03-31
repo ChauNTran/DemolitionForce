@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012005587814}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011878580160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011453575362}
+  - component: {fileID: 81000010278480060}
+  m_Layer: 0
+  m_Name: AudioListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!1 &1000012005587814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011448571020}
+  - component: {fileID: 114000012498551874}
+  - component: {fileID: 114000013052972048}
+  - component: {fileID: 114000010451403072}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4000011448571020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012005587814}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000011453575362}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000011453575362
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011878580160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000011448571020}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &81000010278480060
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011878580160}
+  m_Enabled: 0
+--- !u!114 &114000010451403072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012005587814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b626a88a01eed489e440b5326f3735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundGroups:
+  - groupID: Vehicle Collisions
+    group:
+    - {fileID: 8300000, guid: 2fd221a2f369a244aa8c32a9eea1b2e1, type: 3}
+    - {fileID: 8300000, guid: eb4729730ca042e46ae4b524dff52b76, type: 3}
+    - {fileID: 8300000, guid: b8c33a7897ca8a840850b10227f2f0ae, type: 3}
+  - groupID: Vehicle Explosions
+    group:
+    - {fileID: 8300000, guid: 3236eda03684b3447b45dcaa602dd757, type: 3}
+    - {fileID: 8300000, guid: 228a976daf120cf4799c09a164da4589, type: 3}
+    - {fileID: 8300000, guid: 28ae6c3715bc3ad4490d3b3f31136f2f, type: 3}
+    - {fileID: 8300000, guid: f860a4f8fbb447b43b7189321338ff27, type: 3}
+  - groupID: Tank Cannon Shots
+    group:
+    - {fileID: 8300000, guid: bdac858287409c041a4a7e114d68db24, type: 3}
+  - groupID: Projectile Explosions
+    group:
+    - {fileID: 8300000, guid: 3236eda03684b3447b45dcaa602dd757, type: 3}
+    - {fileID: 8300000, guid: 8563c2f942572b4478ebda87c20040d3, type: 3}
+    - {fileID: 8300000, guid: 228a976daf120cf4799c09a164da4589, type: 3}
+    - {fileID: 8300000, guid: 4c4f9dba8af33f64f8d3446543587d91, type: 3}
+    - {fileID: 8300000, guid: cd7bd1696752e40499e809c2ae3067cb, type: 3}
+--- !u!114 &114000012498551874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012005587814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f71eb2b0e7902f4d94c0b482a6b5a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolumePercent: 1
+  sfxVolumePercent: 1
+  musicVolumePercent: 1
+--- !u!114 &114000013052972048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012005587814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e58c2ac20d8234fb9ea1e9ff04b7e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuTheme: {fileID: 8300000, guid: a3d2629a70df22843917eb0266608ca6, type: 3}
+  openWorldTheme: {fileID: 8300000, guid: 7215bba1638f34521b20434ef9c1f92c, type: 3}
+  tutorialTheme: {fileID: 8300000, guid: 7215bba1638f34521b20434ef9c1f92c, type: 3}
+  optionsTheme: {fileID: 0}
+  upgradeTheme: {fileID: 8300000, guid: 7215bba1638f34521b20434ef9c1f92c, type: 3}
+  battleTheme: {fileID: 0}
+  settingsTheme: {fileID: 8300000, guid: 7215bba1638f34521b20434ef9c1f92c, type: 3}
+  lobbyTheme: {fileID: 8300000, guid: 28a98f2e896b04ecba658c6271dacf24, type: 3}

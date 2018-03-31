@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: fb_flamethrower_2
+  m_EditorClassIdentifier: 
+  inputFrameGUIDs:
+  - 8cc7aad2c14dd9d44bd211fb3347210e
+  - 8e81864992661af4b84c55e40ef0d7c0
+  - f39a9ba881954db49ae5f1ca3cb0c34b
+  - b511c3535a9510e40a5da37d81279241
+  - daed5c2bb1a695142b3a3fa260d71656
+  - b0fcbc665a4e5b148940d7ff824c733b
+  - c5fd21611353ebf4a835d38872f2e59f
+  - cc0bc117416aee74b8037f0b51fd80f5
+  - c11a1629a4172b24c97ab6589de6ad15
+  - 8d88857200c37d0499fab770c894553b
+  - b1a550f121e6e934eb0a976190381445
+  - 1e9cf267c592d5e47ba94a7cb79db9e9
+  - a7695d5cd91688f438846f1bfe2aa9b6
+  - 10e6ff5ebeee04f428c4cb775cde5a48
+  - a92a5aa14b0a4454a8a4f49b2d42d129
+  - 4fa86654db236f048a0692f6c19bca62
+  - 6214f3683e7b57e43b451abbec9a62f8
+  - 7f6be92d170858c4aa6293bbae8f0c82
+  - cb98410429634114aae23c936d6ee5e1
+  - dc74edf8413dc2b4e9c0def84f14f21d
+  - a869553de58a3e94e9c33f9aa5ba4090
+  - 48e1db9e8bac01e41851628d28ef362b
+  - bc15f53271f289046807310fd1e058ae
+  - f803731df26a77241868badd59825eb3
+  - d8046f94ea6de97489b2bdcbdad5a510
+  - c4b64607b7ae34841b23f3d4477f3ab7
+  - 6c672dbc364e27740a8755209aed7668
+  - 2d072575c3d4bd74995b13e5664f7a0e
+  - 78d436407d6d21a4e9c14c1377ef9010
+  - b9b795005f4af7c41926d808224d313a
+  - 080a035d0a1811844851e27e782dfa20
+  - 0e648a4edb549b14d8a61be87103c06d
+  - bc99cbfa3fa76054981bd0ae20ecf5d1
+  - 0d9e460514d1ed9409f9ce769f70f2b5
+  - 10c306a0eac291247b981bb4a6e364bc
+  - 262ec8e4f71814a43b1cab4a3bae6037
+  - 554ac8c9d73ab6945b611d1ad12f3499
+  - 5d7c34842e4b6814ba9d4d576d121fc7
+  - a6690a7ace1730644a0e6fd25b8b5ff7
+  - 84b887d38410b0c4cb0d109659d50771
+  - 54a966ef64ada0440862fc621aabd554
+  - d8d6a2d10192c8b4fa1fa1bf3ac74e2d
+  - 095130e86cdc1474da23cce412be17a6
+  - cc37e5c8f9182254aaaaeb6779de901d
+  - 3503508f0129c0245a0002b2b8361c6d
+  - a4e6586b22c077a409cf0f1beabc0984
+  - 84846e2466f6ed94a8935cc9ecc6ac57
+  - 4a38ad26afc50164290155b8b89c5621
+  - e88d284a1322da54b92a9f729ef453d6
+  - d7d62bb7026bba04ba0976f595692e7e
+  - 8a52c0aedb80f0047beb7f954fb03aba
+  - 7d19efc5c5c6a0340aaa8c3a72f82be0
+  - b9e652b9ee3de0742a7ad0443ae38fd6
+  - f9681d160cc79314c981676e6dee64eb
+  - 63e82cbb087d1b24d82ae0eff7f2c75e
+  - b2101db5cd7a23045b0a89a21505f692
+  - 09229b2994cdc894ebf5bf1a05d8bdb8
+  - 5b390fbeda08bf24fa0f9adc92d772d9
+  - 0e5f660a9dae7644781cccab9e1e5b42
+  - 8d27ff43dd5ab6f44ad29981c2450fea
+  - 715d1147b3e3b434ab0aec91717e7bdc
+  - 0d0a813070aecc1419b16901a9246b04
+  - f2ae8bc9ff3dde04684dc293ce65d473
+  - 9be962c71a41e954e879ef140e2d6fea
+  processorInfos:
+  - {fileID: 114538633138856106}
+  exportSettings:
+    fileName: 
+    frameCount: 0
+    exportMode: 2
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &114349868941810416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 8
+  FlipbookNumV: 8
+  Mode: 0
+--- !u!114 &114538633138856106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProcessorName: Assemble Flipbook
+  Enabled: 1
+  Settings: {fileID: 114349868941810416}

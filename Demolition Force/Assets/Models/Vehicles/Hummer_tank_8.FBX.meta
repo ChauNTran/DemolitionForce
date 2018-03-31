@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: f545f75ddd331c945bdc8c546e2b1b5d
+timeCreated: 1489281891
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barrel_End_cover_Hummer
+    100002: FrontHummerTireLeft
+    100004: FrontHummerTireRight
+    100006: Hummer_Body
+    100008: Hummer_Left_machine_gun
+    100010: Hummer_Right_machine_gun
+    100012: //RootNode
+    100014: MidHummerTireLeft
+    100016: MidHummerTireRight
+    100018: RearHummerTireLeft
+    100020: RearHummerTireRight
+    100022: SheetMetalSides
+    100024: Tank_Barrel_Hummer
+    100026: Turret_Base_Hummer
+    100028: Turret_Hummer
+    100030: Turret_Protector_HUmmer
+    400000: Barrel_End_cover_Hummer
+    400002: FrontHummerTireLeft
+    400004: FrontHummerTireRight
+    400006: Hummer_Body
+    400008: Hummer_Left_machine_gun
+    400010: Hummer_Right_machine_gun
+    400012: //RootNode
+    400014: MidHummerTireLeft
+    400016: MidHummerTireRight
+    400018: RearHummerTireLeft
+    400020: RearHummerTireRight
+    400022: SheetMetalSides
+    400024: Tank_Barrel_Hummer
+    400026: Turret_Base_Hummer
+    400028: Turret_Hummer
+    400030: Turret_Protector_HUmmer
+    2300000: Barrel_End_cover_Hummer
+    2300002: FrontHummerTireLeft
+    2300004: FrontHummerTireRight
+    2300006: Hummer_Body
+    2300008: Hummer_Left_machine_gun
+    2300010: Hummer_Right_machine_gun
+    2300012: MidHummerTireLeft
+    2300014: MidHummerTireRight
+    2300016: RearHummerTireLeft
+    2300018: RearHummerTireRight
+    2300020: SheetMetalSides
+    2300022: Tank_Barrel_Hummer
+    2300024: Turret_Base_Hummer
+    2300026: Turret_Hummer
+    2300028: Turret_Protector_HUmmer
+    3300000: Barrel_End_cover_Hummer
+    3300002: FrontHummerTireLeft
+    3300004: FrontHummerTireRight
+    3300006: Hummer_Body
+    3300008: Hummer_Left_machine_gun
+    3300010: Hummer_Right_machine_gun
+    3300012: MidHummerTireLeft
+    3300014: MidHummerTireRight
+    3300016: RearHummerTireLeft
+    3300018: RearHummerTireRight
+    3300020: SheetMetalSides
+    3300022: Tank_Barrel_Hummer
+    3300024: Turret_Base_Hummer
+    3300026: Turret_Hummer
+    3300028: Turret_Protector_HUmmer
+    4300000: Hummer_Body
+    4300002: Hummer_Right_machine_gun
+    4300004: Turret_Base_Hummer
+    4300006: Hummer_Left_machine_gun
+    4300008: FrontHummerTireRight
+    4300010: MidHummerTireRight
+    4300012: SheetMetalSides
+    4300014: Turret_Protector_HUmmer
+    4300016: Turret_Hummer
+    4300018: Barrel_End_cover_Hummer
+    4300020: Tank_Barrel_Hummer
+    4300022: MidHummerTireLeft
+    4300024: RearHummerTireLeft
+    4300026: FrontHummerTireLeft
+    4300028: RearHummerTireRight
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
